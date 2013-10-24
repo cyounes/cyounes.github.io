@@ -17,7 +17,7 @@ for the user to choose a file.
 </p>
 <br />
 ## Create new class :
-In the beginning, you need to create a new class file named MyWindow.java contains the
+First, you need to create a new class file named MyWindow.java contains the
 following lines of code:
 
 {% highlight java %}
