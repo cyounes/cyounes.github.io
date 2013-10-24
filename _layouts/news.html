@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: page
 title: Blog
 ---
 <section class="news">
   <div class="grid">
-    <div class="unit four-fifths">
+    <div class="unit four-fifths" style="font-size:14px;">
       <ul>
         {% for post in site.posts %}
         
@@ -17,10 +17,10 @@ title: Blog
         
             {% if forloop.first %}              
                     <!-- year -->
-                    <li><H3>{{ post.date | date: '%Y' }}</h3>              
+                    <li><h4>{{ post.date | date: '%Y' }}</h4>              
                         <ul>
                             <!-- month -->
-                            <li><h4>{{ post.date | date: '%B' }}</h4>                           
+                            <li><h5>{{ post.date | date: '%B' }}</h5>                           
                                 <ul>            
             {% else %}
                 <!-- all other posts -->                                
@@ -32,17 +32,17 @@ title: Blog
                     </li>
                     <!-- /year -->
                     <!-- year -->
-                    <li><h3>{{ post.date | date: '%Y' }}</h3>              
+                    <li><h4>{{ post.date | date: '%Y' }}</h4>              
                         <ul>
                             <!-- month -->
-                            <li><h4>{{ post.date | date: '%B' }}</h4>                           
+                            <li><h5>{{ post.date | date: '%B' }}</h5>                           
                                 <ul>        
                     {% elsif month != nmonth %}
                                 </ul>
                             </li>                       
                             <!-- /month --> 
                             <!-- month -->
-                            <li><h4>{{ post.date | date: '%B' }}</h4>                           
+                            <li><h5>{{ post.date | date: '%B' }}</h5>                           
                                 <ul>                                                
                     {% endif %}                 
            {% endif %}  
