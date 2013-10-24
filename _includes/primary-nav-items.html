@@ -1,0 +1,14 @@
+<ul>
+  <li class="{% if page.overview %}current{% endif %}">
+    <a href="{{ site.url }}/">Home</a>
+  </li>
+  <li class="{% if page.url contains '/projects/' %}current{% endif %}">
+    <a href="{{ site.url }}/projects/">Project<span class="show-on-mobiles">s</span><span class="hide-on-mobiles">s & dev</span></a>
+  </li>
+  <li class="{% if page.url contains '/blog/' %}current{% endif %}">
+    <a href="{{ site.url }}/blog/index.html">Blog</a>
+  </li>
+  <li class="{% if page.url contains '/contact/' %}current{% endif %}">
+    <a href="{{ site.url }}/contact/">Contact</a>
+  </li>
+</ul>

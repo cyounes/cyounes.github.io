@@ -1,0 +1,11 @@
+name: Younes Cheikh
+description: Personal Website
+markdown: redcarpet
+pygments: true
+relative_permalinks: false
+excerpt_separator: noifniof3nioaniof3nioafafinoafnoif
+permalink: /blog/:categories/:title/
+googleplus_id: 103534699878002934181
+site_owner: 'Younes Cheikh'
+img_content: /img/content
+github: cyounes
