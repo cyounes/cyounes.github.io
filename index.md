@@ -5,7 +5,7 @@ title_tag: while(!(succeed == try()))
 overview: true
 ---
 
-Hi, My name is Younes and i’m a programmer and a blogger, also known online as [cYounes][11]. Currently staying in France, i studied computer sciences at [JF Champollion University][13]. I started my computing career in 2001 when i had my first personal computer.
+Hi, My name is [Younes Cheikh][14] and i’m a programmer and a blogger, also known online as [cYounes][11]. Currently staying in France, i studied computer sciences at [JF Champollion University][13]. I started my computing career in 2001 when i had my first personal computer.
 
 I setup this website mainly to distribute information to my friends and collect experiences with webpage programing.
 
@@ -44,3 +44,4 @@ I'm not a perfectionist in this regard however, i just want to share my knowledg
  [11]: http://www.google.com/#q=cYounes
  [12]: http://s.wordpress.com/latex.php?latex=%5CLaTeX&bg=FFFFFF&fg=B6002F&s=0 "\LaTeX"
  [13]: http://www.univ-jfc.fr/en/champollion-university 
+ [14]: https://plus.google.com/u/0/103534699878002934181?rel=author
