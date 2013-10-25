@@ -6,6 +6,7 @@ next_section: termcolor
 permalink: /projects/marienbad-puzzle/
 project: Marienbad-Game
 comments: true
+description: "Python Marienbad is a mathematical puzzle of strategy developed in Python by Younes Cheikh."
 ---
 
 <img src="../../img/projects/marienbad/marienbad.png" width="600" />

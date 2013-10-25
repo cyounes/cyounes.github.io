@@ -6,6 +6,7 @@ next_section: marienbad-puzzle
 permalink: /projects/walletix-python-api/
 project: WalletixPythonApi
 comments: true
+description: "A Python API for Walletix online payment service by Younes Cheikh"
 ---
 
 ![jMBS](../../img/projects/walletix/walletixpython.png)

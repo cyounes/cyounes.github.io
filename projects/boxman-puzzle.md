@@ -6,6 +6,7 @@ next_section: alsac
 permalink: /projects/boxman-puzzle/
 project: boxman-puzzle
 comments: true
+description: "Transport puzzle developed in Ocaml by Younes Cheikh, in witch the player pushed boxes around a maze, viewed from above, and tries to put them in designated location."
 ---
 
 ![Boxman Puzzle](../../img/projects/boxman/boxman1.png) 

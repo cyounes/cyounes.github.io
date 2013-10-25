@@ -6,6 +6,7 @@ next_section: boxman-puzzle
 permalink: /projects/sudoku-solver/
 project: Sudoku-Solver
 comments: true
+description: "The objective of this program is to fill a 9?9 grid with digits so that each column, each row, and each of the nine 3?3 sub-grids that compose the grid (Regions)."
 ---
 
 ![Sudoku Solver](../../img/projects/sudoku-solver/ss1.png) 

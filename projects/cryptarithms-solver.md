@@ -6,6 +6,7 @@ next_section: sudoku-solver
 permalink: /projects/cryptarithms-solver/
 project: Cryptarithms-Solver
 comments: true
+description: "Mathematical puzzle developed in C by Younes Cheikh, in which the digits are replaced bye symbols (typically letters of the alphabet)."
 ---
 
 ![Cryptartithms Solver](../../img/projects/cryptarithm-solver/crypta1.png) 

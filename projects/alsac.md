@@ -6,6 +6,7 @@ next_section:
 permalink: /projects/alsac/
 project: alsac
 comments: true
+description: "Simple command line tool to control alsa devices sound on linux."
 ---
 
 

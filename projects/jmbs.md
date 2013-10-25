@@ -6,7 +6,7 @@ prev_section:
 permalink: /projects/jmbs/
 project: jmbs
 comments: true
-
+description: "Java Micro Blogging System, free and open source software, Currently allows to create a mini platform for a local social network."
 ---
 
 Java Micro Blogging System

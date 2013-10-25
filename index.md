@@ -2,6 +2,7 @@
 layout: home
 title: Home Page
 title_tag: while(!(succeed == try()))
+description: "Younes Cheikh, The personal website, Software developer, C, C# .Net, Java programer, The official projects page and blog."
 overview: true
 ---
 

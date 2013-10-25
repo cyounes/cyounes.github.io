@@ -6,6 +6,7 @@ next_section: walletix-python-api
 permalink: /projects/walletix-java-api/
 project: WalletixJavaApi
 comments: true
+description: "Java API for Walletix online payment service by Younes Cheikh"
 ---
 
 ![jMBS](../../img/projects/walletix/walletixjava.png)
