@@ -32,14 +32,19 @@ $ alsac [mute | unmute]
 
 ## Examples:
 Examples: 
+
 + `alsac - 10`  : decrease sound of 10% 
+
 + `alsac + 18 ` : increase sound of 18% 
+
 + `alsac 45`    : set sound to 45% 
+
 + `alsac mute`  : mute sound 
+
 + `alsac unmute`: unmute sound
 
 ## License: 
-See license.txt
+See [license.txt](https://raw.github.com/cyounes/alsac/master/license.txt)
 
 <a rel="license"
 href="http://creativecommons.org/licenses/by-nc-sa/3.0/fr/deed.us"><img
