@@ -31,7 +31,8 @@ layout: default
           
           {{ content }}
           <br />
-          By <a href="https://plus.google.com/u/0/103534699878002934181/">Younes Cheikh</a>
+          By <a href="https://plus.google.com/u/0/103534699878002934181?rel=author">Younes Cheikh</a>
+          <br /><br />
           {% if page.comments %}
           <div id="disqus_thread"></div>
               <script type="text/javascript">
@@ -49,11 +50,11 @@ layout: default
             <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
                 
             {% endif %}
-          {% include section_nav.html %}
+          {% include section_nav_tisseo.html %}
         </article>
       </div>
 
-      {% include projects_contents.html %}
+      {% include tisseo_contents.html %}
 
       <div class="clear"></div>
 

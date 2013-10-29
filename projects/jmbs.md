@@ -2,7 +2,7 @@
 layout: projects
 title: jMBS 
 next_section: walletix-java-api
-prev_section: 
+prev_section: tisseo-api.net
 permalink: /projects/jmbs/
 project: jmbs
 comments: true
