@@ -1,6 +1,6 @@
 ---
 layout: projects
-title: API Tisséo pour Framework .Net
+title: Tisséo API pour Framework .Net
 next_section: jmbs
 prev_section: 
 permalink: /projects/tisseo-api.net/
