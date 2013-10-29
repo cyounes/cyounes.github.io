@@ -10,6 +10,7 @@ description: ".Net API for Tisséo, the public transportation operator in the To
 tags: [metro, bus, tram, Toulouse, .Net, C# ]
 ---
 
+<img src="/img/projects/tisseo/tisseoapi.jpg" />
 <div style="margin-top:10px; padding:10px;" class="info">
 <a href="tisseo.fr">Tisséo</a> est le réseau de transports en commun de la ville de Toulouse et sa région.
 </div>
