@@ -6,7 +6,7 @@ description: "Younes Cheikh, The personal website, Software developer, C, C# .Ne
 overview: true
 ---
 
-Hi, My name is [Younes Cheikh][14] and i’m a programmer and a blogger, also known online as [cYounes][11]. Currently staying in France, i studied computer sciences at [JF Champollion University][13]. I started my computing career in 2001 when i had my first personal computer.
+Hi, My name is <a href="https://plus.google.com/103534699878002934181" rel="publisher">Younes Cheikh</a> and i’m a programmer and a blogger, also known online as [cYounes][11]. Currently staying in France, i studied computer sciences at [JF Champollion University][13]. I started my computing career in 2001 when i had my first personal computer.
 
 I setup this website mainly to distribute information to my friends and collect experiences with webpage programing.
 
