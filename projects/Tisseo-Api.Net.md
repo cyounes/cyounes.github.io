@@ -16,7 +16,7 @@ tags: [metro, bus, tram, Toulouse, .Net, C# ]
 </div>
 
 <h2> Mode de mise en œuvre et formats:</h2>
-Les API mises à disposition permettent d'interroger les données du référentiel transport de Tisséo elles sont accessibles par les objets dans le namespace  TisseoAPI.Net.Core :
+Les API mises à disposition permettent d'interroger les données du référentiel transport de Tisséo elles sont accessibles par les objets dans le namespace  `TisseoAPI.Net.Core`:
 
 <table>
 <thead>
@@ -34,7 +34,7 @@ Les API mises à disposition permettent d'interroger les données du référenti
 		<td><code class="yel">PlacesData</code></td>
 		<td><p>Recherche de lieux. <br />[ <a href="TisseoPlaces">documentation</a> ]</p></td>
 	</tr> 
-¡	<tr>
+	<tr>
 		<td>		
 		<a href="TisseoLines"><code class="option">&raquo; TisseoLines</code></a></td>
 		<td><code class="yel">LinesData</code></td>
