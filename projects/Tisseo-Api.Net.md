@@ -11,7 +11,8 @@ tags: [metro, bus, tram, Toulouse, .Net, C# ]
 ---
 
 <img src="/img/projects/tisseo/tisseoapi.jpg" />
-<div style="margin-top:10px; padding:10px;" class="info">
+
+<div style="margin-top:10px; margin-right:300px;" class="note info">
 <a href="tisseo.fr">Tisséo</a> est le réseau de transports en commun de la ville de Toulouse et sa région.
 </div>
 
