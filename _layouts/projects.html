@@ -19,7 +19,14 @@ layout: default
               <a target="_blank" href="https://github.com/{{ site.github }}/{{ page.project }}/archive/master.zip" class="next" >Download zip</a>
               {% endif %}
             </div>
-            
+            <div class="right align-right">
+              {% if page.project == null %}
+              {% elsif page.project == '_' %}
+                <span class="next disabled">Repository</span>
+              {% else %}
+                <a target="_blank" href="https://github.com/{{ site.github }}/{{ page.project }}" class="prev" >Repository</a>
+              {% endif %}
+            </div>
           </div>
           
           {{ content }}
