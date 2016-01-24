@@ -1,12 +1,8 @@
-name: Younes Cheikh
-description: Personal Website
+# General Jekyll Config
+highlighter: rouge
+url: http://cyounes.com
+lsi: false
+ImagesFolder: /Content/Images
 markdown: redcarpet
-pygments: true
-relative_permalinks: false
-excerpt_separator: noifniof3nioaniof3nioafafinoafnoif
-permalink: /blog/:categories/:title/
-googleplus_id: 103534699878002934181
-site_owner: 'Younes Cheikh'
-img_content: /img/content
-github: cyounes
-keywords: [java, C, Python, .NET, Swing, OCaml, Younes, Cheikh] 
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
+

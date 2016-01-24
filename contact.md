@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: post
 title: Contact
 permalink: /contact/
 ---
@@ -13,7 +13,7 @@ onclick="window.open('http://www.google.com/recaptcha/mailhide/d?k\07501leBmjuTu
 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=300');
 return false;"
 href="http://www.google.com/recaptcha/mailhide/d?k=01leBmjuTu-80babsDNgZAaA==&amp;c=bsHTcqxIxzO-SHo3lFWlaRijisUeatfh7mk55AweBxA=">&#8230;</a>@gmail.com
-<br />Irc : @ freenode.net & epiknet.org `cYounes` , `Break` 
+<br /><del>Irc : @ freenode.net & epiknet.org `cYounes` , `Break` </del> I am no more on IRC channels!
 
 <div id="wufoo-z1fry6f11w29mhh">
 Fill out my <a href="https://cyounes.wufoo.com/forms/z1fry6f11w29mhh">online form</a>.

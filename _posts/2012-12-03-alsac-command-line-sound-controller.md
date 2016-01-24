@@ -1,18 +1,15 @@
 ---
-layout: news_item
+layout: post
 title: "alsac Command Line Sound Controller"
 date: "2012-12-03 00:00:00"
 description: Linux tool to control sound using command line
-categories: [Linux]
-version: 1.0.0
-author: Younes Cheikh
 comments: true
 ---
 
 
 When i've installed ubuntu with openbox window manager, there were no task bars and no menus. that was a problem for me to control the sound using command line.
 
-![alsac](/img/content/alsac.png) To solve this i wrote some lines quickly to create a simple and easy command line tool allows me to control sound volume.
+![alsac]({{ site.ImagesFolder }}/alsac.png) To solve this i wrote some lines quickly to create a simple and easy command line tool allows me to control sound volume.
 
 `alsac` works only with **alsa** devices and tested only on Ubuntu 12.10, based on
 `alsa` command and its parmeters.

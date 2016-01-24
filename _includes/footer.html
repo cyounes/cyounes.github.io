@@ -1,16 +1,12 @@
-<footer>
-  <div class="grid">
-    <div class="unit one-third center-on-mobiles">
-      &nbsp;<p>Follow me on Twitter <a target="_blank" href="http://twitter.com/cYounes">@cYounes</a>
-    </div>
+<div class="disclaimer">
+  {% if site.data.theme.show_disclaimer %}
+  <p>
+    The postings on this site are my own and don't necessarily represent my 
+    employer’s positions, strategies or opinions.
+  </p>
+  {% endif %}
 
-    <div class="unit two-thirds align-right center-on-mobiles">
-      <p>
-        Proudly hosted by
-        <a href="https://github.com">
-          <img src="{{ site.url }}/img/footer-logo.png" alt="GitHub • Social coding">
-        </a>
-      </p>
-    </div>
-  </div>
-</footer>
+  <p>
+    © {{ site.data.theme.name }}, 2011-2016 &mdash; built with <a href="http://jekyllrb.com/">Jekyll</a> using <a href="https://github.com/swanson/lagom">Lagom theme</a>
+  </p>
+</div>

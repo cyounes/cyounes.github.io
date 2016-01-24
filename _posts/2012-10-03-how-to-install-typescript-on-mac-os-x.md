@@ -1,16 +1,13 @@
 ---
-layout: news_item
+layout: post
 title: How to install typescript on mac os x
 date: '2012-10-03 00:00:00'
 description: "Mini-Tutorial explains how to install [typeScript][2] on Mac OS X easily "
-categories: [Tutorials]
-author: cyounes  
-tags: [ typescript, mac ] 
 comments: true
 ---
 
 
-![typescript](/img/content/typescript1.jpg)
+![typescript]({{ site.ImagesFolder }}/typescript1.jpg)
 
 
 This article explains how to install [TypeScript][2] on Mac OS X easily.
@@ -33,14 +30,14 @@ $ brew install nodejs
 $ curl https://npmjs.org/install.sh | sh
 </pre>
 
-![](/img/content/install_npm.png)
+![]({{ site.ImagesFolder }}/install_npm.png)
 
 ## 4. get TypeScript:
 <pre>
 $ npm install -g typescript
 </pre>
 
-![](/img/content/install_typescript.png)
+![]({{ site.ImagesFolder }}/install_typescript.png)
 ## 5. Test TypeScript:
 
 In your editor, type the following JavaScript code in greeter.ts:
@@ -66,5 +63,3 @@ The result will be a file greeter.js which contains the same JavaScript that you
  [2]: http://www.typescriptlang.org/ "TypeScript"
  [3]: http://mxcl.github.com/homebrew/
  [4]: http://nodejs.org
- [5]:
- [6]: 

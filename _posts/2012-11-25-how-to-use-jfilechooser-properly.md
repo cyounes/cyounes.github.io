@@ -1,10 +1,8 @@
 ---
-layout: news_item
+layout: post
 title: How to use JFileChooser properly 
 date: '2012-11-25 00:00:00'
 description: "Tutorial explains how to use JFileChooser on Java/Swing properly to open/save file" 
-categories: [ Tutorials ]
-tags: [ Java, Swing, Programming ]
 comments: true
 ---
 
@@ -12,9 +10,9 @@ In this tutorial, i'll explain you how to use JFileChooser API to make it easy
 for the user to choose a file. 
 
 <br />
-<p align="center">
-![JFileChooser select file to open ]({{ site.img_content }}/jfilechooser_open.jpg) 
-</p>
+
+![JFileChooser select file to open ]({{ site.ImagesFolder }}/jfilechooser_open.jpg) 
+
 <br />
 ## Create new class :
 First, you need to create a new class file named MyWindow.java contains the
@@ -104,9 +102,8 @@ In this textfield we will put the full path of the selected file by the user usi
 {% endhighlight %}
 
 You should get something like :
-<p align="center"> 
-![tuto]({{ site.img_content }}/tuto_my_window1.jpg)
-</p>
+
+![tuto]({{ site.ImagesFolder }}/tuto_my_window1.jpg)
 
 ## Add action performed to our button:
 
@@ -197,7 +194,7 @@ public class MyWindow extends JFrame {
 
 Screen shoot:
 <p align="center">
-![Button pressed]({{ site.img_content  }}/tuto_button_pressed.jpg)
+![Button pressed]({{ site.ImagesFolder }}/tuto_button_pressed.jpg)
 </p>
 
 Now, after get the action performed works correctly, we need just to edit the method that put the text on the text field, to get the `file chooser` opened after clicking the `browse button`.
@@ -228,13 +225,13 @@ Now, after get the action performed works correctly, we need just to edit the me
 {% endhighlight %}
 
 After clicking `browse button`: 
-<p align="center" >
-![JFileChooser]({{ site.img_content }}/tuto_select_file.jpg )
-</p>
+
+![JFileChooser]({{ site.ImagesFolder }}/tuto_select_file.jpg )
+
 after selecting file:
-<p align="center" >
-![file selected]({{ site.img_content }}/tuto_getpath.jpg)
-</p>
+
+![file selected]({{ site.ImagesFolder }}/tuto_getpath.jpg)
+
 
 now you get your `JFileChooser` works correctly. 
 The full code on gist:
@@ -320,13 +317,13 @@ public class MyWindow extends JFrame {
 }
 {% endhighlight %}
 
-## Next Tutorial
+## <del>Next Tutorial</del> No more tutorials in Java :) 
 
-In the next tutorial, you will see how to:
+<del>In the next tutorial, you will see how to: </del>
 
-+ Add FileFilter , to speciy which extensions you want to open, and prevent to select files that have other extensions.
-+ Use JFileChooser to open/save file.
-+ Preview selected image on file chooser before opening. 
++ <del>Add FileFilter , to speciy which extensions you want to open, and prevent to select files that have other extensions.</del>
++ <del>Use JFileChooser to open/save file.</del>
++ <del>Preview selected image on file chooser before opening. </del>
 
 
  
