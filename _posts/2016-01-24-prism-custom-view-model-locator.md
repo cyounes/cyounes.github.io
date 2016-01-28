@@ -9,7 +9,7 @@ comments: true
 One of the most issues i encountered, was using the Prism ViewModelLocator to bind the view context to the right view model instance. 
 After googling, I had to write my own convention basing on Prism default convention. the new custom convention allows me to bind view models not necessary having the same namespace as the view namespace. also makes it possible to bind these view models event if are in another separated assembly. 
 
-{% highlight xaml %}
+{% highlight xml %}
 	mvvm:ViewModelLocator.AutoWireViewModel="True"
 {% endhighlight %}
 
