@@ -3,6 +3,6 @@ highlighter: rouge
 url: http://cyounes.com
 lsi: false
 ImagesFolder: /Content/Images
-markdown: redcarpet
+markdown: kramdown
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
 
