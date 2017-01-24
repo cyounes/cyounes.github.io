@@ -8,6 +8,7 @@ comments: true
 The power of the following method is avoid implementing the WCF contract client in the client side and duplicate the code for each call.
 Using Reflections and Expression Lambda to handle each message before send it. 
 The follwing code has 3 steps specified by regions :
+
 - Update the DTO.
 - Initilialize the proxy if the channel is in status Faulted.
 - Invoke the contract operation
