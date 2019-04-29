@@ -2,7 +2,9 @@
 layout: post
 title: Termcolor Library
 comments: true
-description: "C/C++ library used for ANSII Color formatting for Linux/Mac terminal output."
+description: C/C++ library used for ANSII Color formatting for Linux/Mac terminal output.
+categories: [Development]
+tags: [Library, C]
 ---
 
 

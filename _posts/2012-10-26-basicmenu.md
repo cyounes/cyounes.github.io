@@ -2,7 +2,9 @@
 layout: post
 title: Basicmenu Library
 comments: true
-description: "An open source library coded in C, allows the programmer to create and display a menu easily in his/her console application on linux and mac os x, works with C/C++ programs."
+description: An open source library coded in C, allows the programmer to create and display a menu easily in his/her console application on linux and mac os x, works with C/C++ programs.
+categories: [Development]
+tags: [Library, C]
 ---
 
 
@@ -82,5 +84,3 @@ for more functions and examples please visit <a href="/Content/Docs/basicmenu/ex
 ### Documentation: 
 
 for code documentation please visit  <a href="/Content/Docs/basicmenu/examples.html" >Documentation page</a>
-
-<a href="https://github.com/cyounes/basicmenu"><img style="position: fixed; top: 0; right: 0; border: 0; z-index: 999; display: block;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub"></a>

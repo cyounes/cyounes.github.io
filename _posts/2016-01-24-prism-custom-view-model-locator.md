@@ -1,8 +1,10 @@
 ---
 layout: post
 title: 'Prism: View Model Locator => Custom Convention to locate view models in separated assemblies'
-description: Custom ViewModelLocator Convention to load view models from other assemblies without having the same namespace
+description: How to implement a custom ViewModelLocator Convention to load view models from other assemblies without having the same namespace
 comments: true
+categories: [Development, Tutorials]
+tags: [C#, PRISM]
 --- 
 
 <img src="https://avatars3.githubusercontent.com/u/10503161?v=3" style="width:80px; float: left; margin: 15px;" /> I was working on a modular/composite application using [Prism][1] and [MEF][2]. 

@@ -2,7 +2,9 @@
 layout: post
 title: Walletix Java API
 comments: true
-description: "Java API for Walletix online payment service by Younes Cheikh"
+description: "Java API for Walletix online payment service"
+categories: [Development]
+tags: [API, Walletix, Java]
 ---
 
 ![jMBS]({{ site.ImagesFolder }}/walletix/walletixjava.png)

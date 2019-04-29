@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Rue Gaubil, Gaillac
+title: "[Photo] Rue Gaubil, Gaillac"
 date: '2012-09-27 00:00:00'
-description: ""
 comments: true
+categories: [Photography]
+tags: [Photo, Gaillac, France]
 ---
 
 

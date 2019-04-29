@@ -3,6 +3,9 @@ layout: post
 title: 'Observable Concurrent Queue'
 date: '2015-01-02 00:00:00'
 comments: true
+description: ObservableConcurrentQueue based on the classic .Net ConcurrentQueue (System.Collections.Concurrent.ConcurrentQueue) Allows to raise events when the queue content is changed with the same events as ObservableCollection...
+categories: [Development]
+tags: [Library, C#]
 ---
 
 ![ConcurrentQueue]({{ site.ImagesFolder }}/concurrentQueue.png)
@@ -85,8 +88,6 @@ The item which the changes applied on. can be null if the notification action is
 PM> Install-Package ObservableConcurrentQueue
 
 {% endhighlight %} 
-
-<a href="https://github.com/cyounes/ObservableConcurrentQueue"><img style="position: fixed; top: 0; right: 0; border: 0; z-index: 999; display: block;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub"></a>
  
  [1]: https://github.com/BledSoft/ObservableConcurrentQueue
 

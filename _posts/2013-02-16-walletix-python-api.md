@@ -2,7 +2,9 @@
 layout: post
 title: Walletix Python API
 comments: true
-description: "A Python API for Walletix online payment service by Younes Cheikh"
+description: "A Python API for Walletix online payment service"
+categories: [Development]
+tags: [API, Walletix, Python]
 ---
 
 ![Walletix]({{ site.ImagesFolder }}/walletix/walletixpython.png)

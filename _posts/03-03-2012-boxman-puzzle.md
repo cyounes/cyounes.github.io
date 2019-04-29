@@ -2,7 +2,9 @@
 layout: post
 title: Boxman Puzzle
 comments: true
-description: "Transport puzzle developed in Ocaml by Younes Cheikh, in witch the player pushed boxes around a maze, viewed from above, and tries to put them in designated location."
+description: Transport puzzle developed in Ocaml by Younes Cheikh, in witch the player pushed boxes around a maze, viewed from above, and tries to put them in designated location.
+categories: [Development]
+tags: [Game, Puzzle, Caml]
 ---
 
 ![Boxman Puzzle]({{ site.ImagesFolder }}/boxman/boxman1.png) 

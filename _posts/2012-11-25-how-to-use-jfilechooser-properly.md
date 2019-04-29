@@ -2,8 +2,10 @@
 layout: post
 title: How to use JFileChooser properly 
 date: '2012-11-25 00:00:00'
-description: "Tutorial explains how to use JFileChooser on Java/Swing properly to open/save file" 
+description: How to use JFileChooser on Java/Swing properly to open/save file
 comments: true
+categories: [Tutorials]
+tags: [Java, Swing]
 ---
 
 In this tutorial, i'll explain you how to use JFileChooser API to make it easy
