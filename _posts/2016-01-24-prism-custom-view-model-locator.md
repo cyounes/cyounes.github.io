@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 'Prism: View Model Locator => Custom Convention to locate view models in separated assemblies'
-description: How to implement a custom ViewModelLocator Convention to load view models from other assemblies without having the same namespace
+title: 'Prism: View Model Locator => Custom Convention'
+description: How to implement a custom ViewModelLocator Convention to load view models from other separated assemblies without having the same namespace
 comments: true
 categories: [Development, Tutorials]
 tags: [C#, PRISM]
