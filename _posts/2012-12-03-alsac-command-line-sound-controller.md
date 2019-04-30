@@ -6,6 +6,7 @@ description: Linux tool to control sound using command line
 comments: true
 categories: [Development]
 tags: [Tools, Linux]
+fullview: true
 ---
 
 

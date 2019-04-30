@@ -1,8 +1,9 @@
 @import url(//fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
 
-body{
+html, body{
 	color: #2c3e50;
 	font-family: Verdana, "Helvetica Neue", Helvetica, sans-serif, monospace;
+	height: 100%;
 }
 
 .sidebar {

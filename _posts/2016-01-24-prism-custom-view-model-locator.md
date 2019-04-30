@@ -5,6 +5,7 @@ description: How to implement a custom ViewModelLocator Convention to load view 
 comments: true
 categories: [Development, Tutorials]
 tags: [C#, PRISM]
+fullview: true
 --- 
 
 <img src="https://avatars3.githubusercontent.com/u/10503161?v=3" style="width:80px; float: left; margin: 15px;" /> I was working on a modular/composite application using [Prism][1] and [MEF][2]. 

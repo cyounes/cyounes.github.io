@@ -91,6 +91,11 @@
 			<li><a href="{{ site.BASE_PATH}}/"><i class="fa fa-home"></i>Home</a></li>
 			<li><a href="{{ site.BASE_PATH}}/{{ site.categories_path }}"><i class="fa fa-folder"></i>Categories</a></li>
 			<li><a href="{{ site.BASE_PATH}}/{{ site.tags_path }}"><i class="fa fa-tags"></i>Tags</a></li>
+			{% for page in site.pages %}
+				{% if page.nav_menu %}
+				  <li><a href="{{ page.url }}"><i class="fa fa-info-circle"></i>{{ page.title }}</a></li>
+				{% endif %}
+			{% endfor %}
 			<li class="divider"></li>
 			<li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
 		</ul>

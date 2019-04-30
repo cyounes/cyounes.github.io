@@ -5,6 +5,7 @@ comments: true
 description: An open source library coded in C, allows the programmer to create and display a menu easily in his/her console application on linux and mac os x, works with C/C++ programs.
 categories: [Development]
 tags: [Library, C]
+fullview: true
 ---
 
 

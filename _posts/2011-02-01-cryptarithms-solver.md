@@ -5,6 +5,7 @@ comments: true
 description: Mathematical puzzle developed in C by Younes Cheikh, in which the digits are replaced bye symbols (typically letters of the alphabet).
 categories: [Development]
 tags: [solver, C]
+fullview: true
 ---
 
 ![Cryptartithms Solver]({{ site.ImagesFolder }}/cryptarithm-solver/crypta1.png) 

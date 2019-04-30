@@ -6,6 +6,7 @@ comments: true
 description: ObservableConcurrentQueue based on the classic .Net ConcurrentQueue (System.Collections.Concurrent.ConcurrentQueue) Allows to raise events when the queue content is changed with the same events as ObservableCollection...
 categories: [Development]
 tags: [Library, C#]
+fullview: true
 ---
 
 ![ConcurrentQueue]({{ site.ImagesFolder }}/concurrentQueue.png)
