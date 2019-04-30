@@ -113,7 +113,7 @@ article {
 	padding: 0 5% 0;
 }
 
-article.home div a, article.home pre a { color: #2c3e50; }
+article.home div a, article.home pre a { color: #43609C; }
 article.home div a:hover, article.home pre a:hover { color: #2c3e50; text-decoration: none; }
 article img { max-width: 100%; }
 
@@ -138,7 +138,8 @@ article.home h1 a:hover,
 article.home h2 a:hover,
 article.home h3 a:hover,
 article.home h4 a:hover {
-	color: #777;
+	color: #2c3e50;
+	text-decoration: none;
 }
 
 .author .author-image {
