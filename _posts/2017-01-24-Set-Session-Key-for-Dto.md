@@ -51,8 +51,8 @@ public static Task<RequestResponse> SendRequestAsync(Expression<Func<IUiContract
             return func.Invoke(Instance._proxy);
         }
 {% endhighlight %}
-
-## Call the method from another class code: 
+<br />
+### Call the method from another class code: 
 
 {% highlight csharp %}
   ServiceClient.SendRequestAsync(contract => contract.AddUserAsync(dto));

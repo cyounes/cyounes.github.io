@@ -66,21 +66,21 @@ private static void OnObservableConcurrentQueueContentChanged(
 
 Then, Once the handler is defined, we can start adding, deleting or getting elements from the concurrentQueue, and after each operation an event will be raised and handled by the method above.
 
-### Event Args:
+#### Event Args:
 
 The EventArgs object sent by the event contains 2 properties:
 
-### NotifyConcurrentQueueChangedAction 
+#### NotifyConcurrentQueueChangedAction 
 
 + **Enqueue**: If a new item has been enqueued.
 + **Dequeue**: an item has been dequeued.
 + **Peek**: an item has been peeked.
 + **Empty**: The last element in the queue has been dequeued and the queue is empty.
 
-### T ChangedItem
+#### T ChangedItem
 The item which the changes applied on. can be null if the notification action is NotifyConcurrentQueueChangedAction.Empty.
 
-## Download
+### Download
 + Source: [Github Ripository][1]
 + Binary: [Nuget](https://www.nuget.org/packages/ObservableConcurrentQueue/) :
 

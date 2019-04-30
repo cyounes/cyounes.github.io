@@ -60,7 +60,7 @@ If you added the assembly MyAssembly1.dll (contains the view models inside whate
 If your view named **Main**View or **Main**:
 The convention will look for all the non-abstract classes ineheriting from BindableBase class, and named **Main**ViewModel. 
 
-## Source: 
+### Source: 
 
 {% highlight csharp %}
 public class MvvmTypeLocator: IMvvmTypeLocator
@@ -133,7 +133,7 @@ public class MvvmTypeLocator: IMvvmTypeLocator
 
 {% endhighlight %}
 
-### Use the custom convention
+#### Use the custom convention
 
 To use the custom convention, I created a new instance of IMvvmTypeLocator on the application BootStrapper. then i overrided the method ConfigureViewModelLocator. 
 
