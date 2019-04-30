@@ -1,7 +1,8 @@
 <!-- sidebar.html -->
 <header class="sidebar-header" role="banner">
 	<a href="{{ site.BASE_PATH }}/">
-		<img src="//www.gravatar.com/avatar/{{site.author.email_md5}}?s=150" class="img-circle" />
+		<img src="{{ site.ImagesFolder}}/Younes_Cheikh_Blog.jpg" class="img-circle" />
+		<!--<img src="//www.gravatar.com/avatar/{{site.author.email_md5}}?s=150" class="img-circle" />-->
 	</a>
 	<h3 class="title">
         <a href="{{ site.BASE_PATH }}/">{{ site.title }}</a>
@@ -30,10 +31,10 @@
 			</a>
 		</li>
 		{% endif %}
-		{% if site.author.email %}
+		{% if site.author.linkedin %}
 		<li>
-			<a class="btn btn-default btn-sm" href="mailto:{{ site.author.email }}">
-				<i class="fa fa-envelope fa-lg"></i>
+			<a class="btn btn-default btn-sm" href="https://linkedin.com/in/{{ site.author.linkedin }}">
+				<i class="fa fa-linkedin fa-lg"></i>
 			</a>
 		</li>
 		{% endif %}
@@ -46,11 +47,35 @@
 			</a>
 		</li>
 		{% endif %}
-		{% if site.author.linkedin %}
+		{% if site.author.email %}
 		<li>
-			<a class="btn btn-default btn-sm" href="https://linkedin.com/in/{{ site.author.linkedin }}">
-				<i class="fa fa-linkedin fa-lg"></i>
-			</a>
+				<script type="text/javascript" language="javascript">
+					{ coded = "{{ site.author.email }}"
+					  key = "5TfwDYRk01PS3lJv7zBqu8VaCOIn2WNjcMyxEFGHmdr6ZbeUoiphs49LKAgQXt"
+					  shift=coded.length
+					  link=""
+					  for (i=0; i<coded.length; i++) {
+						if (key.indexOf(coded.charAt(i))==-1) {
+						  ltr = coded.charAt(i)
+						  link += (ltr)
+						}
+						else {     
+						  ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
+						  link += (key.charAt(ltr))
+						}
+					  }
+					document.write("<a class=\"btn btn-default btn-sm\" href='mailto:"+link+"'><i class=\"fa fa-envelope fa-lg\"></i></a>")
+					}
+					</script>
+					<noscript>
+							<a class="btn btn-default btn-sm">
+									<i class="fa fa-envelope fa-lg"></i>
+							</a>
+					</noscript>
+					
+			<!--<a class="btn btn-default btn-sm" href="mailto:{{ site.author.email }}">
+					<i class="fa fa-envelope fa-lg"></i>
+			</a>-->
 		</li>
 		{% endif %}
 		<li>

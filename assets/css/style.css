@@ -2,14 +2,15 @@
 
 body{
 	color: #2c3e50;
+	font-family: Verdana, "Helvetica Neue", Helvetica, sans-serif, monospace;
 }
 
 .sidebar {
 	position: fixed;
 	top: 0px;
 	padding-top: 10%;
-	background-color: #2c3e50;
-	color: #fff;
+	background-color: #F3F3F3;
+	color: #2c3e50;
 }
 
 .sidebar-header {
@@ -23,7 +24,7 @@ body{
 
 .sidebar-header .title a{
 	text-decoration: none;
-	color: #fff;
+	color: #43609C;
 }
 
 a.nav-link {
@@ -37,8 +38,8 @@ a.nav-link i{
 a.nav-link:hover { color: #777; }
 
 #bio {
-	font-family: "Courier New", Courier, monospace;
-	font-size: 11px;
+	font-family: monospace, "Courier New", Courier;
+	font-size: 12px;
 	margin: 0 auto;
 	margin-bottom: 10px;
 }
@@ -82,7 +83,7 @@ article .share .gplus:hover {
 }
 
 .page-header {
-	color: #e74c3c;
+	color: #43609C;
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
@@ -123,20 +124,20 @@ article.home h4,
 article.home h5,
 article.home h6 {
 	font-family: 'Ubuntu', sans-serif;
-	color: #f2756a;
+	color: #2c3e50;
 }
 
 article.home h1 a,
 article.home h2 a,
 article.home h3 a,
 article.home h4 a {
-	color: #f2756a;
+	color: #43609C;
 }
 article.home h1 a:hover,
 article.home h2 a:hover,
 article.home h3 a:hover,
 article.home h4 a:hover {
-	color: #e74c3c;
+	color: #777;
 }
 
 .author .author-image {

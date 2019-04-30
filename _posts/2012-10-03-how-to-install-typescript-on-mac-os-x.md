@@ -2,7 +2,7 @@
 layout: post
 title: How to install typescript on mac os x
 date: '2012-10-03 00:00:00'
-description: Mini-Tutorial explains how to install [typeScript][2] on Mac OS X easily
+description: Mini-Tutorial explains how to install typeScript on Mac OS X easily
 comments: true
 categories: [Tutorials]
 tags: [MacOS, typescript]

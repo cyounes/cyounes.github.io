@@ -14,17 +14,17 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Younes Cheikh
+      title: Younes
 
 description: Personal blog and more...
 author:
   name: Younes Cheikh
-  email: firstname dot cheikh at gmail dot come
+  email: A16pkl.L3kPN3@qTePE.L1T
   github: cyounes
   twitter: cyounes
   #pinterest: asd123
   linkedin: cyounes
-  bio: Just another .NET Developer!
+  bio: I am a person who has high passion in programing and development, and have been loving every minute of it... C# .NET addicted :)
   email_md5: aa413781a3cc7b265536282483dbe8a0
 
 rss_path: feed.xml

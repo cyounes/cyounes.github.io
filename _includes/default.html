@@ -2,7 +2,13 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>{{ page.title }}</title>
+	<title>
+			{% if page.url == "/index.html" or page.url == "/" or page.url == "" %}
+				{{ site.author.name }} - Personal Blog
+			{% else %}
+				{{ page.title }}
+			{% endif %}
+	</title>
 	{% if page.description %}
 	<meta name="description" content="{{ page.description }}">
 	{% endif %}

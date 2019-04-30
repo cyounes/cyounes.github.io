@@ -2,7 +2,7 @@
 layout: post
 title: Walletix Java API
 comments: true
-description: "Java API for Walletix online payment service"
+description: "Java API for <strike>Walletix online payment service</strike> (Closed)"
 categories: [Development]
 tags: [API, Walletix, Java]
 ---
