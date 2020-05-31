@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<title>
 			{% if page.url == "/index.html" or page.url == "/" or page.url == "" %}
-				{{ site.author.name }} - Personal Blog
+				{{ site.title }} by {{ site.author.name }}
 			{% else %}
 				{{ page.title }}
 			{% endif %}
