@@ -1,4 +1,4 @@
 cyounes.github.io
 =================
 
-~~~My Personal website [cYounes.com](http://cyounes.com)~~~
+My Personal website [somecode.net](http://somecode.net)
