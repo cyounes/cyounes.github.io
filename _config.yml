@@ -7,7 +7,7 @@ highlighter: rouge
 markdown: kramdown
 disqus: cyounes
 google_analytics: cyounes
-title: SomeCode.NET Blog
+title: SomeCode.NET
 
 defaults:
   -
