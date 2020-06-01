@@ -1,11 +1,9 @@
-<div class="page-header">
-  
-      {% if page.url == "/index.html" or page.url == "/" or page.url == "" %}
+{% if page.url == "/index.html" or page.url == "/" or page.url == "" %}
       <!--<h1><a href="{{ site.BASE_PATH }}/">{{ site.title }}</a></h1>
       <p>By <small>{{ site.author.name }}</small></p>-->
       {% else %}
+<div class="page-header">
       <h1> {{ page.title }} {% if page.tagline %} <small>{{ page.tagline }}</small>{% endif %}</h1>
-      {% endif %}
 </div>
-
+{% endif %}
 {{ content }}
