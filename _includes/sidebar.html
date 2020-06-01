@@ -1,5 +1,10 @@
 <!-- sidebar.html -->
 <header class="sidebar-header" role="banner">
+      {% if page.url == "/index.html" or page.url == "/" or page.url == "" %}
+      <!-- Do Nothing! -->
+      {% else %}
+      <h1><a href="{{ site.BASE_PATH }}/">{{ site.title }}</a></h1>
+      {% endif %}
 	<a href="{{ site.BASE_PATH }}/">
 		<!-- <img src="{{ site.ImagesFolder}}/Younes_Cheikh_Blog.jpg" class="img-circle" /> -->
 		<img src="//www.gravatar.com/avatar/{{site.author.email_md5}}?s=150" class="img-circle" />
