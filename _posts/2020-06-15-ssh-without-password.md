@@ -1,5 +1,12 @@
 ---
-published: false
+layout: post
+title: 'How to connect to remote SSH Server without a password'
+description: A short tutorial explaining how to connect to configure SSH to get connected to a remote server without been asked for a password for each connection.
+comments: true
+categories: [Tutorials]
+tags: [SSH]
+fullview: true
+published: true
 ---
 I'm writing this post just as a quick note to save somewhere the steps to follow in order to get connected to a remote SSH server without have to enter a user password for each connection. 
 
