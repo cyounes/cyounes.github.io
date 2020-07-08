@@ -12,6 +12,10 @@ nav_menu: true
     }
 {% endhighlight %}
 
+## LinkedIn
+
+<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="fr_FR" data-type="horizontal" data-theme="light" data-vanity="cyounes"><a class="LI-simple-link" href='https://fr.linkedin.com/in/cyounes?trk=profile-badge'>Younes Cheikh</a></div>
+
 ## This blog
 
 <p>
@@ -19,3 +23,5 @@ nav_menu: true
         <br />
         Source code at <a href="https://github.com/cyounes/cyounes.github.io">Github ripository</a>
 </p>
+
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
