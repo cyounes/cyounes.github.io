@@ -16,7 +16,7 @@ nav_menu: true
 
 <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="fr_FR" data-type="horizontal" data-theme="light" data-vanity="cyounes"><a class="LI-simple-link" href='https://fr.linkedin.com/in/cyounes?trk=profile-badge'>Younes Cheikh</a></div>
 
-<a href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @TwitterDev</a>
+<a href="https://twitter.com/cYounes?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @cYOunes</a>
 
 ## This blog
 
