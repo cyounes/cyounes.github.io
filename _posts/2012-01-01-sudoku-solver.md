@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Sudoku Solver
 comments: true
 description: The objective of this program is to fill a 9x9 grid with digits so that each column, each row, and each of the nine 3x3 sub-grids that compose the grid (Regions).

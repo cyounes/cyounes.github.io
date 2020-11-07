@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'Observable Concurrent Queue'
 date: '2015-01-02 00:00:00'
 comments: true

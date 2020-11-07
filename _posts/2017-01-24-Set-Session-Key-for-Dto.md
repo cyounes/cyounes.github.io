@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'How to set a dto session key when calling WCF proxy'
 description: How to handle all DTOs by setting a session key before sending to WCF host using expression lambda
 comments: true

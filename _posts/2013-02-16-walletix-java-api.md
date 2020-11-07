@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Walletix Java API
 comments: true
 description: "Java API for <strike>Walletix online payment service</strike> (Closed)"

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Cryptarithms Solver
 comments: true
 description: Mathematical puzzle developed in C by Younes Cheikh, in which the digits are replaced bye symbols (typically letters of the alphabet).

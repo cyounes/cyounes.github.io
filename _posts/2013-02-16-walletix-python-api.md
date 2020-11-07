@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Walletix Python API
 comments: true
 description: "A Python API for <strike>Walletix online payment service</strike> (Closed)"

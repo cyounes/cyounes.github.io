@@ -1,5 +1,4 @@
 ---
-layout: post
 title: How to use JFileChooser properly 
 date: '2012-11-25 00:00:00'
 description: How to use JFileChooser on Java/Swing <strike>properly to open/save file</strike> -I'm not developing in Java anymore!-

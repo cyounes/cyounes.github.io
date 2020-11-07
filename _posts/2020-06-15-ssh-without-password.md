@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 'How to connect to remote SSH Server without a password'
 description: A short tutorial explaining how to connect to configure SSH to get connected to a remote server without been asked for a password for each connection.
 comments: true

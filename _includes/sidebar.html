@@ -1,94 +1,19 @@
-<!-- sidebar.html -->
-<header class="sidebar-header" role="banner">
-      <h1><a href="{{ site.BASE_PATH }}/">{{ site.title }}</a></h1>
-	<br />
-	<a href="{{ site.BASE_PATH }}/">
-		<!-- <img src="{{ site.ImagesFolder}}/Younes_Cheikh_Blog.jpg" class="img-circle" /> -->
-		<img src="//www.gravatar.com/avatar/{{site.author.email_md5}}?s=150" class="img-circle" />
-	</a>
-	<h3>
-		<small>by </small><a href="{{ site.BASE_PATH }}/about.html">{{ site.author.name }}</a>
-    </h3>
-</header>
-
-{% if site.author.bio %}
-<div id="bio" class="text-center">
-	{{ site.author.bio }}
-</div>
+{% if page.author_profile or layout.author_profile or page.sidebar %}
+  <div class="sidebar sticky">
+  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+  {% if page.sidebar %}
+    {% for s in page.sidebar %}
+      {% if s.image %}
+        <img src="{{ s.image | relative_url }}"
+             alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
+      {% endif %}
+      {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
+      {% if s.text %}{{ s.text | markdownify }}{% endif %}
+      {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
+    {% endfor %}
+    {% if page.sidebar.nav %}
+      {% include nav_list nav=page.sidebar.nav %}
+    {% endif %}
+  {% endif %}
+  </div>
 {% endif %}
-
-<div id="contact-list" class="text-center">
-	<ul class="list-unstyled list-inline">
-		{% if site.author.github %}
-		<li>
-			<a target="_blank" class="btn btn-default btn-sm" href="https://github.com/{{ site.author.github }}">
-				<i class="fa fa-github-alt fa-lg"></i>
-			</a>
-		</li>
-		{% endif %}
-		{% if site.author.twitter %}
-		<li>
-			<a target="_blank" class="btn btn-default btn-sm" href="https://twitter.com/{{ site.author.twitter }}">
-				<i class="fa fa-twitter fa-lg"></i>
-			</a>
-		</li>
-		{% endif %}
-		{% if site.author.linkedin %}
-		<li>
-			<a target="_blank" class="btn btn-default btn-sm" href="https://linkedin.com/in/{{ site.author.linkedin }}">
-				<i class="fa fa-linkedin fa-lg"></i>
-			</a>
-		</li>
-		{% endif %}
-	</ul>
-	<ul id="contact-list-secondary" class="list-unstyled list-inline">
-		{% if site.author.pinterest %}
-		<li>
-			<a target="_blank" class="btn btn-default btn-sm" href="https://pinterest.com/{{ site.author.pinterest }}">
-				<i class="fa fa-pinterest fa-lg"></i>
-			</a>
-		</li>
-		{% endif %}
-		{% if site.author.email %}
-		<li>
-				<script type="text/javascript" language="javascript">
-					{ coded = "{{ site.author.email }}"
-					  key = "5TfwDYRk01PS3lJv7zBqu8VaCOIn2WNjcMyxEFGHmdr6ZbeUoiphs49LKAgQXt"
-					  shift=coded.length
-					  link=""
-					  for (i=0; i<coded.length; i++) {
-						if (key.indexOf(coded.charAt(i))==-1) {
-						  ltr = coded.charAt(i)
-						  link += (ltr)
-						}
-						else {     
-						  ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
-						  link += (key.charAt(ltr))
-						}
-					  }
-					document.write("<a class=\"btn btn-default btn-sm\" href='mailto:"+link+"'><i class=\"fa fa-envelope fa-lg\"></i></a>")
-					}
-					</script>
-					<noscript>
-							<a class="btn btn-default btn-sm">
-									<i class="fa fa-envelope fa-lg"></i>
-							</a>
-					</noscript>
-					
-			<!--<a class="btn btn-default btn-sm" href="mailto:{{ site.author.email }}">
-					<i class="fa fa-envelope fa-lg"></i>
-			</a>-->
-		</li>
-		{% endif %}
-		<li>
-			<a target="_blank" class="btn btn-default btn-sm" href="{{ site.BASE_PATH }}/{{ site.rss_path }}">
-				<i class="fa fa-rss fa-lg"></i>
-			</a>
-		</li>
-	</ul>
-</div>
-
-<!--<div>
-	<a class="twitter-timeline" data-link-color="#43609C" href="https://twitter.com/cYounes?ref_src=twsrc%5Etfw">Tweets by cYounes</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>-->
-<!-- sidebar.html end -->

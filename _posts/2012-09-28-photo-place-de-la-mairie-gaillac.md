@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "[Photo] PLACE DE LA MAIRIE, GAILLAC"
 date: '2012-09-28 00:00:00'
 comments: true
