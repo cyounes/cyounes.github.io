@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Display License Keys Section License Manager for WooCommerce
 description: >-
   A quick fix for the problem of empty page when clicking on License Keys
