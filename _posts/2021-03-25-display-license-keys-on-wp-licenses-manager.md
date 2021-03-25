@@ -49,6 +49,10 @@ When manually entering a key by fulfilling the form or importing from files/clip
 
 In order to make it happen, and display the license keys in correctly, I had to edit the plugin code manually and do a call to function `update_post_meta($orderId, 'lmfwc_order_complete', 1)` to set the order as complete from the function `insertImportedLicenseKeys` just before return statement in the class Controller. 
 
+```
+Path to file: /public_html/wp-content/plugins/license-manager-for-woocommerce/includes/integrations/woocommerce/Controller.php 
+```
+
 {% highlight php %}
 public function insertImportedLicenseKeys(
         $licenseKeys,
