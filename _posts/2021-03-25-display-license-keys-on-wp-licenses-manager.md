@@ -1,6 +1,6 @@
 ---
 published: true
-title: Display License Keys Section License Manager for WooCommerce
+title: Display License Keys Section for WooCommerce
 description: >-
   A quick fix for the problem of empty page when clicking on License Keys
   Section in my account page.
@@ -123,11 +123,4 @@ public function insertImportedLicenseKeys(
     {% endhighlight %}
     
     
-    > This change worked on plugin version **2.2.2** 
-
-
-
-
-
-
-
+    > This change worked on plugin version **2.2.2**
