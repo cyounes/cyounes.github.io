@@ -116,7 +116,7 @@ public function insertImportedLicenseKeys(
             }
         }
 		
-		update_post_meta($cleanOrderId, 'lmfwc_order_complete', 1);
+		update_post_meta($orderId, 'lmfwc_order_complete', 1);
 
         return $result;
     }
